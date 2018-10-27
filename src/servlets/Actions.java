@@ -1,6 +1,7 @@
 package servlets;
 import json_creater.JsonCreaterParams;
 import params.ParamsArduino;
+import params.Sensor;
 import reader_file.ReadWriteFile;
 import servlets.getters.GetterJSONArduino;
 import javax.servlet.ServletException;
@@ -10,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.Date;
 
 @WebServlet(name = "Actions")
@@ -18,34 +20,40 @@ public class Actions extends HttpServlet {
     public static final String NAME_JSON_ACTIONS = "\\ActionsArduino.json";
 
     private static final String NAME_PARAM_LIGHT = "light";
+    private static final String NAME_PARAM_TEMPERATURE = "temperature";
+    private static final String NAME_PARAM_HUMIDITY = "humidity";
+
     private static final String KEY_GET_QUERY = "3we42fi27rh";
     private static final String KEY_POST_QUERY = "JbhT692Hy2";
+
+    private static final String[] NAME_PARAMETERS = {NAME_PARAM_TEMPERATURE,
+                                                        NAME_PARAM_HUMIDITY
+                                                        ,NAME_PARAM_LIGHT};
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("application/json;charset=UTF-8");
 
-        System.err.println("Posting....");
+        System.err.println("Posting...." + getServletName());
         String key = request.getParameter("key");
 
         if(checkKeyPOSTrequest(key))
         {
-            //System.err.println("    KEY_POST -> [*] CORRECT");
+            //System.err.println("    KEY_POST -> [*] CORRECT" + this.getServletName()));
             String data = request.getParameter("data");
             writeJsonActions(data);
         }else
-            System.err.println("    KEY_POST -> [*] WRONG");
+            System.err.println("    KEY_POST -> [*] WRONG : " + this.getServletName());
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("application/json;charset=UTF-8");
 
-        //System.err.println("Request...");
+        System.err.println("Request..."+getServletName());
         String keyFromArduino = request.getParameter("key");
 
         if(checkKeyGETrequest(keyFromArduino))
         {
-            //System.err.println("    KEY_GET -> [*] CORRECT");
             getAndWriteParamsGETrequest(request);
             printJSON(response);
         }else {
@@ -64,16 +72,27 @@ public class Actions extends HttpServlet {
 
         GetterJSONArduino getterJSONArduino = new GetterJSONArduino(getServletContext().getRealPath("/WEB-INF/res"));
         PrintWriter printWriter = response.getWriter();
-        printWriter.print(getterJSONArduino.getJSONforArduino());
+        printWriter.print(getterJSONArduino.getJSONforArduino(NAME_JSON_ACTIONS));
         printWriter.close();
     }
 
     private void getAndWriteParamsGETrequest(HttpServletRequest request)
     {
-        String light = request.getParameter(NAME_PARAM_LIGHT);
-
         ParamsArduino paramsArduino = new ParamsArduino(getServletContext().getRealPath("/WEB-INF/res"));
-        paramsArduino.writeParams(JsonCreaterParams.getJsonParams(light));
+        paramsArduino.writeParams(JsonCreaterParams.getJsonParams(getParams(request)));
+    }
+
+    private ArrayList<Sensor> getParams(HttpServletRequest httpServletRequest)
+    {
+       ArrayList<Sensor> arrayListSensor = new ArrayList<>();
+
+       for(String nameParam : NAME_PARAMETERS)
+       {
+           int value = Integer.parseInt(httpServletRequest.getParameter(nameParam));
+           arrayListSensor.add(new Sensor(nameParam,value));
+       }
+
+        return arrayListSensor;
     }
 
     private boolean checkKeyGETrequest(String key)

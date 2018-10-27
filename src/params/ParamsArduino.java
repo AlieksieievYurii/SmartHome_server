@@ -1,10 +1,15 @@
 package params;
 
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+
 import java.io.*;
 
 public class ParamsArduino
 {
-    private static String NAME_FILE_PARAMS = "\\ParamsArduino.json";
+    public static String NAME_FILE_PARAMS = "\\ParamsArduino.json";
 
     private String fullPath;
     private File file;
@@ -50,6 +55,25 @@ public class ParamsArduino
         bufferedReader.close();
 
         return text.toString();
+    }
+
+    public static String[] convertJsonParamsToArray(String jsonParams)
+    {
+        JsonElement jsonElement = new JsonParser().parse(jsonParams);
+        JsonArray jsonElementsParams = jsonElement.getAsJsonArray();
+
+        String[] res = new String[jsonElementsParams.size()];
+
+        for(int i = 0; i < jsonElementsParams.size(); i++){
+            JsonObject jsonObject = (JsonObject) jsonElementsParams.get(i);
+            String nameParam = jsonObject.get("name").getAsString();
+            int value = jsonObject.get("value").getAsInt();
+
+            res[0] = nameParam;
+            res[1] = String.valueOf(value);
+        }
+
+        return res;
     }
 
     private void createFileParams()

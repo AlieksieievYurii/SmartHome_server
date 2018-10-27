@@ -5,8 +5,34 @@
       <artifact name="Test:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/servlets/ActionsFromDevices.java" line="25" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="79cc7ae2-2ad7-473c-bb82-a74c1d6aaa8f" name="Default Changelist" comment="" />
+    <list default="true" id="79cc7ae2-2ad7-473c-bb82-a74c1d6aaa8f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/converter/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/params/Sensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/ActionsFromDevices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/getters/AdderParamsTojsonFileActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/json_creater/JsonCreaterParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/json_creater/JsonCreaterParams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/params/ParamsArduino.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/params/ParamsArduino.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/servlets/Actions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/servlets/Actions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/servlets/getters/GetterJSONArduino.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/servlets/getters/GetterJSONArduino.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/res/ActionsArduino.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/res/ActionsArduino.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/res/ParamsArduino.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/res/ParamsArduino.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SmartHomeServer/json_creater/JsonCreaterParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SmartHomeServer/json_creater/JsonCreaterParams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SmartHomeServer/params/ParamsArduino.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SmartHomeServer/params/ParamsArduino.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SmartHomeServer/servlets/Actions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SmartHomeServer/servlets/Actions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SmartHomeServer/servlets/getters/GetterJSONArduino.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SmartHomeServer/servlets/getters/GetterJSONArduino.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json_creater/JsonCreaterParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json_creater/JsonCreaterParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/params/ParamsArduino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/params/ParamsArduino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlets/Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlets/getters/GetterJSONArduino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/getters/GetterJSONArduino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,9 +92,47 @@
     <session id="-939168924">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.42" value="2" />
+          <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="36" />
+          <entry key="json" value="29" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="36" />
+          <entry key="JSON" value="29" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2515" />
+          <entry key="json" value="5" />
+          <entry key="xml" value="66" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2515" />
+          <entry key="JSON" value="5" />
+          <entry key="XML" value="66" />
         </counts>
       </usages-collector>
     </session>
@@ -78,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state>
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -87,8 +151,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/servlets/Actions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+            <state relative-caret-position="226">
+              <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,22 +161,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reader_file/ReadWriteFile.java">
+        <entry file="file://$PROJECT_DIR$/src/servlets/ActionsFromDevices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
-              <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="206">
+              <caret line="66" column="49" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/res/ActionsArduino.json">
+        <entry file="file://$PROJECT_DIR$/src/servlets/getters/AdderParamsTojsonFileActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="194" selection-start-column="194" selection-end-column="194" />
+            <state relative-caret-position="119">
+              <caret line="10" column="81" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,10 +190,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/res/Actions.json" />
         <option value="$PROJECT_DIR$/src/json_creater/JsonCreater.java" />
         <option value="$PROJECT_DIR$/src/params/WriterParams.java" />
@@ -137,12 +203,19 @@
         <option value="$PROJECT_DIR$/src/servlets/getters/ParamsArduino.java" />
         <option value="$PROJECT_DIR$/src/json_creater/JsonCreaterForArduino.java" />
         <option value="$PROJECT_DIR$/src/reader_file/ReaderFile.java" />
-        <option value="$PROJECT_DIR$/src/json_creater/JsonCreaterParams.java" />
-        <option value="$PROJECT_DIR$/src/params/ParamsArduino.java" />
-        <option value="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/res/ActionsArduino.json" />
         <option value="$PROJECT_DIR$/src/reader_file/ReadWriteFile.java" />
         <option value="$PROJECT_DIR$/src/servlets/getters/GetterJSONArduino.java" />
+        <option value="$PROJECT_DIR$/src/servlets/ActionsFromDevicea.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/params/ParamsArduino.java" />
+        <option value="$PROJECT_DIR$/src/converter/Converter.java" />
+        <option value="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/res/ActionsArduino.json" />
+        <option value="$PROJECT_DIR$/src/servlets/getters/AdderParamsTojsonFileActions.java" />
+        <option value="$PROJECT_DIR$/src/servlets/ActionsFromDevices.java" />
+        <option value="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/res/ActionsFromDevices.json" />
+        <option value="$PROJECT_DIR$/src/params/Sensor.java" />
         <option value="$PROJECT_DIR$/src/servlets/Actions.java" />
+        <option value="$PROJECT_DIR$/src/json_creater/JsonCreaterParams.java" />
       </list>
     </option>
   </component>
@@ -175,6 +248,67 @@
           <expand>
             <path>
               <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Test_war_exploded" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Test_war_exploded" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Test_war_exploded" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="params" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -196,7 +330,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539876879423" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540644307068" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -298,32 +432,41 @@
       <workItem from="1539876834773" duration="47000" />
       <workItem from="1539876927216" duration="44000" />
       <workItem from="1539877016828" duration="36000" />
+      <workItem from="1539924872307" duration="7388000" />
+      <workItem from="1539967009417" duration="5396000" />
+      <workItem from="1539974259075" duration="1934000" />
+      <workItem from="1540223796200" duration="2381000" />
+      <workItem from="1540280203286" duration="3056000" />
+      <workItem from="1540483512248" duration="3383000" />
+      <workItem from="1540494998721" duration="302000" />
+      <workItem from="1540557934921" duration="1429000" />
+      <workItem from="1540637401034" duration="2577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35178000" />
+    <option name="totallyTimeSpent" value="63024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1168" height="840" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.65822786" visible="true" weight="0.18140794" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8902439" visible="true" weight="0.31498194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.34177214" side_tool="true" weight="0.25451264" />
+      <window_info id="Web" order="7" sideWeight="0.1097561" side_tool="true" visible="true" weight="0.31498194" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34419262" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30311614" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -385,13 +528,6 @@
     <entry file="file://$PROJECT_DIR$/src/Servlet.java" />
     <entry file="file://$PROJECT_DIR$/src/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/params/WriterParams.java" />
-    <entry file="file://$PROJECT_DIR$/src/json_creater/JsonCreaterForArduino.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/AbstractStringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -406,66 +542,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/json_creater/JsonCreaterParams.java">
+    <entry file="file://$PROJECT_DIR$/src/converter/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="187">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/res/ParamsArduino.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/params/ParamsArduino.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/getters/GetterJSONArduino.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reader_file/ReadWriteFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="139">
+          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json_creater/JsonCreaterForArduino.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/getters/GetterJSONArduino.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/res/ActionsArduino.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="194" selection-start-column="194" selection-end-column="194" />
+          <caret column="86" selection-start-column="86" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/res/ActionsFromDevices.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Programs/apache-tomcat-8.5.34/lib/servlet-api.jar!/javax/servlet/ServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/getters/AdderParamsTojsonFileActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="81" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/params/ParamsArduino.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-402">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/params/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/res/ParamsArduino.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json_creater/JsonCreaterParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/ActionsFromDevices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="66" column="49" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlets/Actions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+        <state relative-caret-position="226">
+          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

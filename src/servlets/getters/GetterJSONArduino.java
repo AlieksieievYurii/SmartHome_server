@@ -15,8 +15,8 @@ public class GetterJSONArduino
         this.realPath = realPath;
     }
 
-    public String getJSONforArduino() throws IOException {
-        ReadWriteFile r = new ReadWriteFile(realPath, Actions.NAME_JSON_ACTIONS);
+    public String getJSONforArduino(String nameFile) throws IOException {
+        ReadWriteFile r = new ReadWriteFile(realPath, nameFile);
         return r.readFile();
     }
 }
