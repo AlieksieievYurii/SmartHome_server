@@ -7,7 +7,7 @@ import java.io.IOException;
 public class Converter
 {
     private ReadWriteFile readBFile;
-    private ReadWriteFile writeAFile;
+    private ReadWriteFile writeFile;
 
     private String fullPathAfile;
     private String fullPathBfile;
@@ -18,13 +18,16 @@ public class Converter
         this.fullPathBfile = fullPathBfile;
 
         readBFile = new ReadWriteFile(fullPathBfile);
-        writeAFile = new ReadWriteFile(fullPathAfile);
+        writeFile = new ReadWriteFile(fullPathAfile);
     }
 
     public void convert()
     {
         String data = readBfile();
-        writeAfile(data);
+
+        //Here should be some interesting implementation, but in other time I will do it
+
+        writeFile(data);
     }
 
     private String readBfile()
@@ -37,8 +40,8 @@ public class Converter
         }
     }
 
-    private void writeAfile(String text)
+    private void writeFile(String text)
     {
-        writeAFile.writeFile(text);
+        writeFile.writeFile(text);
     }
 }

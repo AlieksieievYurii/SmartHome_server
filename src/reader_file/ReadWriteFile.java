@@ -51,8 +51,9 @@ public class ReadWriteFile
     private void createNewJsonFile()
     {
         try {
-            file.createNewFile();
-            writeFile(JsonCreaterForArduino.getDefaultStringJSONforArduino());
+            boolean i = file.createNewFile();
+            if(!writeFile(JsonCreaterForArduino.getDefaultStringJSONforArduino()))
+                System.err.println("Error of writing file of json -> " + fullPath);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -68,7 +69,6 @@ public class ReadWriteFile
             printWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
-            System.err.println("Error of writing file of json -> " + fullPath);
             return false;
         }
         return true;

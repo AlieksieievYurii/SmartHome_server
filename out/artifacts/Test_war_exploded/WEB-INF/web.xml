@@ -11,6 +11,10 @@
         <servlet-name>ActionsFromDevices</servlet-name>
         <servlet-class>servlets.ActionsFromDevices</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ActionsHash</servlet-name>
+        <servlet-class>servlets.ActionsHash</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Actions</servlet-name>
         <url-pattern>/actions</url-pattern>
@@ -19,5 +23,8 @@
         <servlet-name>ActionsFromDevices</servlet-name>
         <url-pattern>/actions-by-device</url-pattern>
     </servlet-mapping>
-    
+    <servlet-mapping>
+        <servlet-name>ActionsHash</servlet-name>
+        <url-pattern>/actions-hash</url-pattern>
+    </servlet-mapping>
 </web-app>

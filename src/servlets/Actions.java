@@ -3,7 +3,7 @@ import json_creater.JsonCreaterParams;
 import params.ParamsArduino;
 import params.Sensor;
 import reader_file.ReadWriteFile;
-import servlets.getters.GetterJSONArduino;
+import reader_file.GetterTextFromFile;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -54,7 +54,7 @@ public class Actions extends HttpServlet {
 
         if(checkKeyGETrequest(keyFromArduino))
         {
-            getAndWriteParamsGETrequest(request);
+            //getAndWriteParamsGETrequest(request);
             printJSON(response);
         }else {
             System.err.println("    KEY_GET -> [*] WRONG");
@@ -70,9 +70,9 @@ public class Actions extends HttpServlet {
 
     private void printJSON(HttpServletResponse response) throws IOException {
 
-        GetterJSONArduino getterJSONArduino = new GetterJSONArduino(getServletContext().getRealPath("/WEB-INF/res"));
+        GetterTextFromFile getterTextFromFile = new GetterTextFromFile(getServletContext().getRealPath("/WEB-INF/res"));
         PrintWriter printWriter = response.getWriter();
-        printWriter.print(getterJSONArduino.getJSONforArduino(NAME_JSON_ACTIONS));
+        printWriter.print(getterTextFromFile.getTextFromFile(NAME_JSON_ACTIONS));
         printWriter.close();
     }
 
