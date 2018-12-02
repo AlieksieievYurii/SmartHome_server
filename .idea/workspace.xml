@@ -9,9 +9,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/servlets/ActionsFromDevices.java" line="35" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79cc7ae2-2ad7-473c-bb82-a74c1d6aaa8f" name="Default Changelist" comment="lol">
+    <list default="true" id="79cc7ae2-2ad7-473c-bb82-a74c1d6aaa8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlets/ActionsFromDevices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/ActionsFromDevices.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,7 +118,7 @@
           <entry key="dummy" value="17" />
           <entry key="java" value="4809" />
           <entry key="json" value="12" />
-          <entry key="txt" value="123" />
+          <entry key="txt" value="128" />
           <entry key="xml" value="127" />
         </counts>
       </usages-collector>
@@ -127,7 +126,7 @@
         <counts>
           <entry key="JAVA" value="4809" />
           <entry key="JSON" value="12" />
-          <entry key="PLAIN_TEXT" value="140" />
+          <entry key="PLAIN_TEXT" value="145" />
           <entry key="XML" value="127" />
         </counts>
       </usages-collector>
@@ -339,7 +338,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543753229619" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543754536742" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/testFromGitHub/Android-app-for-smart-home" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -461,7 +460,7 @@
       <workItem from="1541850762871" duration="2438000" />
       <workItem from="1542013729728" duration="155000" />
       <workItem from="1543155591765" duration="932000" />
-      <workItem from="1543742428002" duration="4233000" />
+      <workItem from="1543742428002" duration="4863000" />
     </task>
     <task id="LOCAL-00001" summary="Improving server">
       <created>1540645582447</created>
@@ -491,11 +490,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543743918888</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="13:29">
+      <created>1543753784130</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543753784130</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95002000" />
+    <option name="totallyTimeSpent" value="95632000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -508,23 +514,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8706697" visible="true" weight="0.3090615" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8696398" visible="true" weight="0.3090615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.12933025" side_tool="true" visible="true" weight="0.3090615" />
+      <window_info id="Web" order="7" sideWeight="0.1303602" side_tool="true" visible="true" weight="0.3090615" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989796" weight="0.35103926" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32678983" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.32678983" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50102043" side_tool="true" weight="0.51311475" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3295082" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
@@ -584,7 +589,8 @@
     <MESSAGE value="Improving server" />
     <MESSAGE value="I have added Servlet for getting hushSum of file &quot;Actions.json&quot;" />
     <MESSAGE value="lol" />
-    <option name="LAST_COMMIT_MESSAGE" value="lol" />
+    <MESSAGE value="13:29" />
+    <option name="LAST_COMMIT_MESSAGE" value="13:29" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/index.jsp">

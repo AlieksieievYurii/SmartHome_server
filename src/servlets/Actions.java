@@ -17,7 +17,7 @@ import java.util.Date;
 @WebServlet(name = "Actions")
 public class Actions extends HttpServlet {
 
-    public static final String NAME_JSON_ACTIONS = "\\ActionsArduino.json";
+    public static final String NAME_JSON_ACTIONS = "/ActionsArduino.json";
 
     private static final String NAME_PARAM_LIGHT = "light";
     private static final String NAME_PARAM_TEMPERATURE = "temperature";
