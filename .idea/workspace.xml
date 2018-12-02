@@ -9,18 +9,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/servlets/ActionsFromDevices.java" line="35" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79cc7ae2-2ad7-473c-bb82-a74c1d6aaa8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/converter/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/converter/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hash/HashCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash/HashCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json_creater/JsonCreaterForArduino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsoncreater/JsonCreaterForArduino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json_creater/JsonCreaterParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsoncreater/JsonCreaterParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json_creater/JsonFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsoncreater/JsonFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reader_file/GetterTextFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/readerfile/GetterTextFromFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reader_file/ReadWriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/readerfile/ReadWriteFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/responce/PrinterResponseForDevices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/responce/PrinterResponseForDevices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlets/Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/Actions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlets/ActionsFromDevices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/ActionsFromDevices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlets/ActionsHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/ActionsHash.java" afterDir="false" />
+    <list default="true" id="79cc7ae2-2ad7-473c-bb82-a74c1d6aaa8f" name="Default Changelist" comment="lol">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,7 +93,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="7" />
+          <entry key="class" value="8" />
           <entry key="java" value="64" />
           <entry key="json" value="51" />
           <entry key="jsp" value="1" />
@@ -113,7 +103,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="7" />
+          <entry key="CLASS" value="8" />
           <entry key="JAVA" value="64" />
           <entry key="JSON" value="51" />
           <entry key="JSP" value="1" />
@@ -145,8 +135,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="340">
+              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -257,6 +247,33 @@
             <path>
               <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Test_war_exploded" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Test_war_exploded" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Test_war_exploded" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="readerfile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,7 +309,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543743884087" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543744365289" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/testFromGitHub/Android-app-for-smart-home" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -414,7 +431,7 @@
       <workItem from="1541850762871" duration="2438000" />
       <workItem from="1542013729728" duration="155000" />
       <workItem from="1543155591765" duration="932000" />
-      <workItem from="1543742428002" duration="1060000" />
+      <workItem from="1543742428002" duration="1549000" />
     </task>
     <task id="LOCAL-00001" summary="Improving server">
       <created>1540645582447</created>
@@ -437,11 +454,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543742687664</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lol">
+      <created>1543743918888</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543743918888</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91829000" />
+    <option name="totallyTimeSpent" value="92318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,6 +478,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8704512" visible="true" weight="0.3090615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -747,10 +772,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/readerfile/GetterTextFromFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="340">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
