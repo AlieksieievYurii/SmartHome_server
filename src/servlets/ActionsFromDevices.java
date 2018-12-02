@@ -17,7 +17,7 @@ import java.io.IOException;
 @WebServlet(name = "ActionsFromDevices")
 public class ActionsFromDevices extends HttpServlet {
 
-    public static final String NAME_JSON_ACTIONS_FROM_DEVICES = "\\ActionsFromDevices.json";
+    public static final String NAME_JSON_ACTIONS_FROM_DEVICES = "/ActionsFromDevices.json";
 
     private static final String KEY_GET_QUERY = "12345678";
     private static final String KEY_POST_QUERY = "12345678";
