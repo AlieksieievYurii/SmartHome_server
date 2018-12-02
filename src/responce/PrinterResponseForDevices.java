@@ -4,7 +4,7 @@ import hash.HashCode;
 import params.ParamsArduino;
 import servlets.ActionsFromDevices;
 import servlets.getters.AdderParamsToJsonFileActions;
-import reader_file.GetterTextFromFile;
+import readerfile.GetterTextFromFile;
 
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletResponse;

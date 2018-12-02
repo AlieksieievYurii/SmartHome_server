@@ -1,6 +1,6 @@
-package reader_file;
+package readerfile;
 
-import json_creater.JsonCreaterForArduino;
+import jsoncreater.JsonCreaterForArduino;
 
 import java.io.*;
 

@@ -1,6 +1,6 @@
 package converter;
 
-import reader_file.ReadWriteFile;
+import readerfile.ReadWriteFile;
 
 import java.io.IOException;
 //TODO I need implementation for more function

@@ -1,9 +1,9 @@
 package servlets;
-import json_creater.JsonCreaterParams;
+import jsoncreater.JsonCreaterParams;
 import params.ParamsArduino;
 import params.Sensor;
-import reader_file.ReadWriteFile;
-import reader_file.GetterTextFromFile;
+import readerfile.ReadWriteFile;
+import readerfile.GetterTextFromFile;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

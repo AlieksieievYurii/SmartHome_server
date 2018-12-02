@@ -1,6 +1,6 @@
 package hash;
 
-import reader_file.GetterTextFromFile;
+import readerfile.GetterTextFromFile;
 import responce.PrinterResponseForDevices;
 import sun.misc.BASE64Encoder;
 

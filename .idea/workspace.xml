@@ -10,8 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79cc7ae2-2ad7-473c-bb82-a74c1d6aaa8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/res/ActionsArduino.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/res/ActionsArduino.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/converter/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/converter/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash/HashCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash/HashCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json_creater/JsonCreaterForArduino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsoncreater/JsonCreaterForArduino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json_creater/JsonCreaterParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsoncreater/JsonCreaterParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json_creater/JsonFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsoncreater/JsonFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reader_file/GetterTextFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/readerfile/GetterTextFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reader_file/ReadWriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/readerfile/ReadWriteFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/responce/PrinterResponseForDevices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/responce/PrinterResponseForDevices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlets/Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlets/ActionsFromDevices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/ActionsFromDevices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlets/ActionsHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/ActionsHash.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,7 +126,7 @@
           <entry key="dummy" value="17" />
           <entry key="java" value="4807" />
           <entry key="json" value="12" />
-          <entry key="txt" value="120" />
+          <entry key="txt" value="123" />
           <entry key="xml" value="127" />
         </counts>
       </usages-collector>
@@ -125,7 +134,7 @@
         <counts>
           <entry key="JAVA" value="4807" />
           <entry key="JSON" value="12" />
-          <entry key="PLAIN_TEXT" value="137" />
+          <entry key="PLAIN_TEXT" value="140" />
           <entry key="XML" value="127" />
         </counts>
       </usages-collector>
@@ -136,8 +145,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="187">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -230,6 +239,29 @@
             <path>
               <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Test_war_exploded" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSmartHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHomeServer" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -260,7 +292,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541701481465" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543743884087" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/testFromGitHub/Android-app-for-smart-home" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -382,7 +414,7 @@
       <workItem from="1541850762871" duration="2438000" />
       <workItem from="1542013729728" duration="155000" />
       <workItem from="1543155591765" duration="932000" />
-      <workItem from="1543742428002" duration="220000" />
+      <workItem from="1543742428002" duration="1060000" />
     </task>
     <task id="LOCAL-00001" summary="Improving server">
       <created>1540645582447</created>
@@ -398,11 +430,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541854899499</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lol">
+      <created>1543742687664</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543742687664</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91009000" />
+    <option name="totallyTimeSpent" value="91829000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,7 +454,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8704512" visible="true" weight="0.3090615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -490,7 +528,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Improving server" />
     <MESSAGE value="I have added Servlet for getting hushSum of file &quot;Actions.json&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="I have added Servlet for getting hushSum of file &quot;Actions.json&quot;" />
+    <MESSAGE value="lol" />
+    <option name="LAST_COMMIT_MESSAGE" value="lol" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
@@ -513,7 +552,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/json_creater/JsonCreaterForArduino.java">
+    <entry file="file://$PROJECT_DIR$/src/jsoncreater/JsonCreaterForArduino.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
@@ -548,7 +587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/json_creater/JsonCreaterParams.java">
+    <entry file="file://$PROJECT_DIR$/src/jsoncreater/JsonCreaterParams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
@@ -584,21 +623,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reader_file/ReadWriteFile.java">
+    <entry file="file://$PROJECT_DIR$/src/readerfile/ReadWriteFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
           <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reader_file/GetterTextFromFile.java">
+    <entry file="file://$PROJECT_DIR$/src/readerfile/GetterTextFromFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/json_creater/JsonFunction.java">
+    <entry file="file://$PROJECT_DIR$/src/jsoncreater/JsonFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
@@ -637,6 +676,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -651,6 +693,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
           <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -704,8 +749,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="187">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>

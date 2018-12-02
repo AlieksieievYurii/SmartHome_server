@@ -1,4 +1,4 @@
-package json_creater;
+package jsoncreater;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
