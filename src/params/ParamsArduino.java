@@ -9,7 +9,7 @@ import java.io.*;
 
 public class ParamsArduino
 {
-    public static String NAME_FILE_PARAMS = "\\ParamsArduino.json";
+    public static String NAME_FILE_PARAMS = "/ParamsArduino.json";
 
     private String fullPath;
     private File file;
